@@ -4,6 +4,7 @@ origins "http://localhost:5173"
 resource "*",
 headers: :any,
 expose: [ "Authorization" ],
-methods: [ :get, :post, :put, :patch, :delete, :options, :head ]
+methods: [ :get, :post, :put, :patch, :delete, :options, :head ],
+credentials: true
 end
 end
